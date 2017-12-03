@@ -1,0 +1,52 @@
+{
+  "acropolis" : {
+    "id" : "1",
+    "description" : "",
+    "kind" : "temple"
+  },
+  "parthenonas" : {
+    "id" : "2",
+    "description" : "",
+    "kind" : "temple"
+  },
+  "plaka" : {
+    "id" : "3",
+    "description" : "",
+    "kind" : "point of interest"
+  },
+  "monastiraki" : {
+    "id" : "4",
+    "description" : "",
+    "kind" : "point of interest"
+  },
+  "acropolis museum" : {
+    "id" : "5",
+    "description" : "",
+    "kind" : "museum"
+  },
+  "syntagma square" : {
+    "id" : "6",
+    "description" : "",
+    "kind" : "point of interest"
+  },
+  "kolonaki" : {
+    "id" : "7",
+    "description" : "point of interest",
+    "kind" : ""
+  },
+  "benaki museum" : {
+    "id" : "8",
+    "description" : "",
+    "kind" : "museum"
+  },
+  "keramikos" : {
+    "id" : "9",
+    "description" : "",
+    "kind" : "museum"
+  },
+  "stavros niarchos foundation" : {
+    "id" : "10",
+    "description" : "",
+    "kind" : "art and culture"
+  }
+}

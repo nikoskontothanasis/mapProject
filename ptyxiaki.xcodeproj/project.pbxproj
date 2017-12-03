@@ -12,6 +12,13 @@
 		201B82B01FD16025008000C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201B82AE1FD16025008000C4 /* Main.storyboard */; };
 		201B82B21FD16025008000C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201B82B11FD16025008000C4 /* Assets.xcassets */; };
 		201B82B51FD16025008000C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201B82B31FD16025008000C4 /* LaunchScreen.storyboard */; };
+		20ED28511FD164E00065A09A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20ED28501FD164E00065A09A /* GoogleService-Info.plist */; };
+		20ED28641FD175BB0065A09A /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ED28591FD175BB0065A09A /* GFBase32Utils.m */; };
+		20ED28651FD175BB0065A09A /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ED285B1FD175BB0065A09A /* GeoFire.m */; };
+		20ED28661FD175BB0065A09A /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ED285C1FD175BB0065A09A /* GFGeoHashQuery.m */; };
+		20ED28671FD175BB0065A09A /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ED285D1FD175BB0065A09A /* GFQuery.m */; };
+		20ED28681FD175BB0065A09A /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ED285E1FD175BB0065A09A /* GFGeoHash.m */; };
+		8E6CE39923CA26AE6C53F67A /* Pods_ptyxiaki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E556FB21517EBD37DC4665 /* Pods_ptyxiaki.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,26 @@
 		201B82B11FD16025008000C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		201B82B41FD16025008000C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		201B82B61FD16025008000C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20ED28501FD164E00065A09A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		20ED28531FD175BB0065A09A /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		20ED28551FD175BB0065A09A /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		20ED28561FD175BB0065A09A /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		20ED28571FD175BB0065A09A /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		20ED28581FD175BB0065A09A /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		20ED28591FD175BB0065A09A /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		20ED285A1FD175BB0065A09A /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		20ED285B1FD175BB0065A09A /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		20ED285C1FD175BB0065A09A /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		20ED285D1FD175BB0065A09A /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
+		20ED285E1FD175BB0065A09A /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		20ED28601FD175BB0065A09A /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		20ED28611FD175BB0065A09A /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		20ED28621FD175BB0065A09A /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		20ED28631FD175BB0065A09A /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		20ED28691FD176CD0065A09A /* ptyxiaki-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ptyxiaki-Bridging-Header.h"; sourceTree = "<group>"; };
+		75458F58B578F409BC5B32AE /* Pods-ptyxiaki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ptyxiaki.release.xcconfig"; path = "Pods/Target Support Files/Pods-ptyxiaki/Pods-ptyxiaki.release.xcconfig"; sourceTree = "<group>"; };
+		95E556FB21517EBD37DC4665 /* Pods_ptyxiaki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ptyxiaki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C58C3202FCAA6326C67B5D /* Pods-ptyxiaki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ptyxiaki.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ptyxiaki/Pods-ptyxiaki.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E6CE39923CA26AE6C53F67A /* Pods_ptyxiaki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				201B82A91FD16025008000C4 /* ptyxiaki */,
+				20ED28521FD175BB0065A09A /* GeoFire */,
 				201B82A81FD16025008000C4 /* Products */,
+				6A794368DA5EED95CA719868 /* Pods */,
+				DDD2F0F9E7EAF38F3AC1DE44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +91,66 @@
 				201B82B11FD16025008000C4 /* Assets.xcassets */,
 				201B82B31FD16025008000C4 /* LaunchScreen.storyboard */,
 				201B82B61FD16025008000C4 /* Info.plist */,
+				20ED28501FD164E00065A09A /* GoogleService-Info.plist */,
+				20ED28691FD176CD0065A09A /* ptyxiaki-Bridging-Header.h */,
 			);
 			path = ptyxiaki;
+			sourceTree = "<group>";
+		};
+		20ED28521FD175BB0065A09A /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				20ED28531FD175BB0065A09A /* GeoFire-Prefix.pch */,
+				20ED28541FD175BB0065A09A /* Implementation */,
+				20ED285F1FD175BB0065A09A /* API */,
+			);
+			name = GeoFire;
+			path = "geofire-objc/GeoFire";
+			sourceTree = "<group>";
+		};
+		20ED28541FD175BB0065A09A /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				20ED28551FD175BB0065A09A /* GFBase32Utils.h */,
+				20ED28561FD175BB0065A09A /* GFGeoHashQuery.h */,
+				20ED28571FD175BB0065A09A /* GFGeoHash.h */,
+				20ED28581FD175BB0065A09A /* GFQuery+Private.h */,
+				20ED28591FD175BB0065A09A /* GFBase32Utils.m */,
+				20ED285A1FD175BB0065A09A /* GeoFire+Private.h */,
+				20ED285B1FD175BB0065A09A /* GeoFire.m */,
+				20ED285C1FD175BB0065A09A /* GFGeoHashQuery.m */,
+				20ED285D1FD175BB0065A09A /* GFQuery.m */,
+				20ED285E1FD175BB0065A09A /* GFGeoHash.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		20ED285F1FD175BB0065A09A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				20ED28601FD175BB0065A09A /* GFRegionQuery.h */,
+				20ED28611FD175BB0065A09A /* GeoFire.h */,
+				20ED28621FD175BB0065A09A /* GFQuery.h */,
+				20ED28631FD175BB0065A09A /* GFCircleQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6A794368DA5EED95CA719868 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1C58C3202FCAA6326C67B5D /* Pods-ptyxiaki.debug.xcconfig */,
+				75458F58B578F409BC5B32AE /* Pods-ptyxiaki.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DDD2F0F9E7EAF38F3AC1DE44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95E556FB21517EBD37DC4665 /* Pods_ptyxiaki.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 201B82B91FD16025008000C4 /* Build configuration list for PBXNativeTarget "ptyxiaki" */;
 			buildPhases = (
+				1D7DF695A08D15A6E480647F /* [CP] Check Pods Manifest.lock */,
 				201B82A31FD16025008000C4 /* Sources */,
 				201B82A41FD16025008000C4 /* Frameworks */,
 				201B82A51FD16025008000C4 /* Resources */,
+				1E600B51355B1954AD379FD6 /* [CP] Embed Pods Frameworks */,
+				30C959988372B33B5842B75D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				201B82B51FD16025008000C4 /* LaunchScreen.storyboard in Resources */,
+				20ED28511FD164E00065A09A /* GoogleService-Info.plist in Resources */,
 				201B82B21FD16025008000C4 /* Assets.xcassets in Resources */,
 				201B82B01FD16025008000C4 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +224,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D7DF695A08D15A6E480647F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ptyxiaki-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E600B51355B1954AD379FD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ptyxiaki/Pods-ptyxiaki-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ptyxiaki/Pods-ptyxiaki-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30C959988372B33B5842B75D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ptyxiaki/Pods-ptyxiaki-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		201B82A31FD16025008000C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				201B82AD1FD16025008000C4 /* ViewController.swift in Sources */,
+				20ED28651FD175BB0065A09A /* GeoFire.m in Sources */,
 				201B82AB1FD16025008000C4 /* AppDelegate.swift in Sources */,
+				20ED28671FD175BB0065A09A /* GFQuery.m in Sources */,
+				20ED28661FD175BB0065A09A /* GFGeoHashQuery.m in Sources */,
+				20ED28681FD175BB0065A09A /* GFGeoHash.m in Sources */,
+				20ED28641FD175BB0065A09A /* GFBase32Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +428,7 @@
 		};
 		201B82BA1FD16025008000C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C58C3202FCAA6326C67B5D /* Pods-ptyxiaki.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -280,6 +437,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nikoskontothanasis.ptyxiaki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ptyxiaki/ptyxiaki-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,6 +445,7 @@
 		};
 		201B82BB1FD16025008000C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75458F58B578F409BC5B32AE /* Pods-ptyxiaki.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +454,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nikoskontothanasis.ptyxiaki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ptyxiaki/ptyxiaki-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
