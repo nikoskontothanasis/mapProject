@@ -2,51 +2,71 @@
   "acropolis" : {
     "id" : "1",
     "description" : "",
-    "kind" : "temple"
+    "kind" : "temple",
+    "latitude" : "37.9715323",
+    "longitude" : "23.7257492"
   },
   "parthenonas" : {
     "id" : "2",
     "description" : "",
-    "kind" : "temple"
+    "kind" : "temple",
+    "latitude" : "37.9715285",
+    "longitude" : "23.7267166"
   },
   "plaka" : {
     "id" : "3",
     "description" : "",
-    "kind" : "point of interest"
+    "kind" : "point of interest",
+    "latitude" : "37.9706814",
+    "longitude" : "23.7294139"
   },
   "monastiraki" : {
     "id" : "4",
     "description" : "",
-    "kind" : "point of interest"
+    "kind" : "point of interest",
+    "latitude" : "37.9768203",
+    "longitude" : "23.7245385"
   },
   "acropolis museum" : {
     "id" : "5",
     "description" : "",
-    "kind" : "museum"
+    "kind" : "museum",
+    "latitude" : "37.96849309",
+    "longitude" : "23.72858047"
   },
   "syntagma square" : {
     "id" : "6",
     "description" : "",
-    "kind" : "point of interest"
+    "kind" : "point of interest",
+    "latitude" : "37.9755994",
+    "longitude" : "23.7339867"
   },
   "kolonaki" : {
     "id" : "7",
     "description" : "point of interest",
-    "kind" : ""
+    "kind" : "point of interest",
+    "latitude" : "37.9779718",
+    "longitude" : "23.7429958"
   },
   "benaki museum" : {
     "id" : "8",
     "description" : "",
-    "kind" : "museum"
+    "kind" : "museum",
+    "latitude" : "37.975952",
+    "longitude" : "23.740446"
   },
   "keramikos" : {
     "id" : "9",
     "description" : "",
-    "kind" : "museum"
+    "kind" : "museum",
+    "latitude" : "37.97775223",
+    "longitude" : "23.713542"
   },
   "stavros niarchos foundation" : {
     "id" : "10",
     "description" : "",
-    "kind" : "art and culture"
+    "kind" : "art and culture",
+    "latitude" : "37.9399759",
+    "longitude" : "23.6918887"
   }
 }
