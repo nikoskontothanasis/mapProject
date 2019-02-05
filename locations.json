@@ -36,14 +36,5 @@
 		"imageURL" : "https://i.ytimg.com/vi/g41K3GYwppQ/maxresdefault.jpg",
 		"description" : "Syntagma Square is the central square of Athens. The square is named after the Constitution that Otto, the first King of Greece, was obliged to grant after a popular and military uprising on 3 September 1843. It is located in front of the 19th century Old Royal Palace, housing the Greek Parliament since 1934. Syntagma Square is the most important square of modern Athens from both a historical and social point of view, at the heart of commercial activity and Greek politics. The name Syntagma alone also refers to the neighbourhood surrounding the square."
 	}
-	{
-		"name" : "TEI of Epirus",
-		"id" : 6,
-		"lon" : 39.122425,
-		"lat" : 20.945635,
-		"iconURL" : "https://cdn4.iconfinder.com/data/icons/essential-app-1/16/education-degree-course-university-college-512.png",
-		"imageURL" : "https://media2.trover.com/T/5acb3cfb85f4f47201021b66/fixedw_large_4x.jpg",
-		"description" : "The Technological Educational Institute of Epirus was founded in 1994 in the northwestern part of Greece. It is a Public Institution, completely self-governed, and belongs to the technological sector of Greek Tertiary Education. It functions under the supervision of the Minister of Education and Religious Affairs. It has its main Campus and administrative centre in Arta and Departments in Ioannina, Preveza and Igoumenitsa.The Institute consists of the following 5 Faculties and 8 Departments:Faculty of Agricultural Technology, Food Technology and Nutrition."
-	}
 	]
 }
