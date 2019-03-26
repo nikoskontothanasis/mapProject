@@ -28,13 +28,40 @@
 		"description" : "The National Garden ,formerly the Royal Garden, is a public park of 15.5 hectares in the center of the Greek capital, Athens. It is located directly behind the Greek Parliament building (The Old Palace) and continues to the South to the area where the Zappeion is located, across from the Panathenaiko or Kalimarmaro Olympic Stadium of the 1896 Olympic Games. The Garden also encloses some ancient ruins, tambourines and Corinthian capitals of columns, mosaics, and other features. On the Southeast side are the busts of Ioannis Kapodistrias, the first governor of Greece, and of the Philhellene Jean-Gabriel Eynard. On the South side are the busts of the celebrated Greek poets Dionysios Solomos, author of the Greek National Hymn, and Aristotelis Valaoritis."
 	},
 	{
-		"name" : "TEI of Epirus",
-		"id" : 6,
-		"lon" : 20.945635,
-		"lat" : 39.122425,
-		"iconURL" : "https://cdn4.iconfinder.com/data/icons/essential-app-1/16/education-degree-course-university-college-512.png",
+		"name" : "Greek Parliament",
+		"id" : 7,
+		"lon" : 23.736997,
+		"lat" : 37.975430,
+		"iconURL" : "https://upload.wikimedia.org/wikipedia/commons/9/9a/Logo_of_the_Hellenic_Parliament.png",
 		"imageURL" : "https://media2.trover.com/T/5acb3cfb85f4f47201021b66/fixedw_large_4x.jpg",
-		"description" : "The Technological Educational Institute of Epirus was founded in 1994 in the northwestern part of Greece. It is a Public Institution, completely self-governed, and belongs to the technological sector of Greek Tertiary Education. It functions under the supervision of the Minister of Education and Religious Affairs. It has its main Campus and administrative centre in Arta and Departments in Ioannina, Preveza and Igoumenitsa.The Institute consists of the following 5 Faculties and 8 Departments:Faculty of Agricultural Technology, Food Technology and Nutrition."
+		"description" : "The Hellenic Parliament, literally Parliament of the Hellenes, transliterated Voulí ton Ellínon) is the parliament of Greece, located in the Old Royal Palace, overlooking Syntagma Square in Athens. The Parliament is the supreme democratic institution that represents the citizens through an elected body of Members of Parliament."
+	},
+	{
+		"name" : "Museum of illusions",
+		"id" : 3,
+		"lon" : 23.722921,
+		"lat" : 37.977265,
+		"iconURL" : "https://cdn4.iconfinder.com/data/icons/for-your-interface-free-samples/128/Theatre-256.png",
+		"imageURL" : "https://media2.trover.com/T/5acb3cfb85f4f47201021b66/fixedw_large_4x.jpg",
+		"description" : "The Museum of Illusion in Athens brings you a space suitable both for social and entertaining tours into the world of illusions which has delighted all generations. It’s a perfect place for new experiences and fun with friends and family. Not only is it a place for children who adore coming, but also a place for parents, couples, grandmothers and grandfathers."
+	},
+	{
+		"name" : "Monastiraki Square",
+		"id" : 6,
+		"lon" : 23.725883,
+		"lat" : 37.976601,
+		"iconURL" : "https://cdn3.iconfinder.com/data/icons/nature-37/120/aeaaqqdqas-256.png",
+		"imageURL" : "https://media2.trover.com/T/5acb3cfb85f4f47201021b66/fixedw_large_4x.jpg",
+		"description" : "Monastiraki Square is a flea market neighborhood in the old town of Athens, Greece, and is one of the principal shopping districts in Athens. The area is home to clothing boutiques, souvenir shops, and specialty stores, and is a major tourist attraction in Athens and Attica for bargain shopping. The area is named after Monastiraki Square, which in turn is named for the Church of the Pantanassa that is located within the square. The main streets of this area are Pandrossou Street and Adrianou Street."
+	},
+	{
+		"name" : "Olympic Atheletic Center of Athens 'Spiros Louis'",
+		"id" : 8,
+		"lon" : 23.786371,
+		"lat" : 38.039301,
+		"iconURL" : "https://cdn0.iconfinder.com/data/icons/places-9/24/Stadium-256.png",
+		"imageURL" : "https://media2.trover.com/T/5acb3cfb85f4f47201021b66/fixedw_large_4x.jpg",
+		"description" : "The Athens Olympic Park or OACA, is a sport facilities complex located at Marousi, northeast Athens, Greece. The complex consists of five major venues as well as other supplementary sport facilities."
 	},
 	{
 		"name" : "Syntagma Square",
